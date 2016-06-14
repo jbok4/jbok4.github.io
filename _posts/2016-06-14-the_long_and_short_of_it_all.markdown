@@ -4,7 +4,7 @@ title:  "The Long and Short of it all..."
 date:   2016-06-14 15:56:02 -0400
 ---
 
-# 
+
 5 Years ago, out of a need to speak in code as to communicate better with web developers at my job as an Art Director, I began taking classes at the 3rd Ward School in Web Development–this not only helped me to translate between the developer and the client, it also helped me to design more functional pages, now knowing what the limitations were and how to circumnavigate them. 
 
 I followed up those 3rd Ward classes with classes at SVA for Information Architecture and Interaction Design, learning the step-by-step process of quantitatively thinking through a project from the idea phase to sketch, to implementation.
