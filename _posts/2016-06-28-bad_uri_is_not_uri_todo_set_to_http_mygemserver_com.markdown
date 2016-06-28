@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "BAD URI(IS NOT URI?): TODO: SET TO ‘HTTP://MYGEMSERVER.COM’"
-date:   2016-06-28 13:35:00 +0000
+date:   2016-06-28 09:35:00 -0400
 ---
 
 
