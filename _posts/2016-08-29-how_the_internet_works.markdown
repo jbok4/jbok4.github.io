@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How The Internet Works"
-date:   2016-08-29 17:04:04 +0000
+date:   2016-08-29 13:04:04 -0400
 ---
 
 
@@ -27,7 +27,7 @@ All of this hardware wouldn't create a network without the second component of t
 
 There are also some other protocols that you've probably heard of, like FTP, or TCP/IP.
 
-What do these protocols do? At their most basic level, these protocols establish the rules for how information passes through the Internet. You've probably heard of *IP addresses*. These addresses follow the **Internet protocol**. Each device connected to the Internet has its own specific an *IP address* and just like a fingerprint no two are alike. This is how one machine can find another through the massive network. To make things easier, we can alias an IP address with a human readable name called a **domain name**. For example, google.com is the domain name used on top of the IP address 173.194.121.32. So using the domain name is the easiest way for us to reach a computer over the Internet, because no human wants to remember all those numbers.
+What do these protocols do? At their most basic level, these protocols establish the rules for how information passes through the Internet. You've probably heard of *IP addresses*. These addresses follow the **Internet protocol**. Each device connected to the Internet has its own specific *IP address* and just like a fingerprint no two are alike. This is how one machine can find another through the massive network. To make things easier, we can alias an IP address with a human readable name called a **domain name**. For example, google.com is the domain name used on top of the IP address 173.194.121.32. So using the domain name is the easiest way for us to reach a computer over the Internet, because no human wants to remember all those numbers.
 
 In order to retrieve this post, your computer had to connect with the specific Web server containing the article's file and the server responded by sending the proper information back to you. 
 
