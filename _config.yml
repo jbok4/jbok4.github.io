@@ -4,7 +4,7 @@ header-img: img/home-bg.png
 email: jciringione@gmail.com
 copyright_name: jbok4
 description: > # this means to ignore newlines until "baseurl:"
-  Stories from a Coding Education
+  Stories from a Coding Education, by Jaclyn Ciringione
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: jbok4
 github_username:  jbok4
