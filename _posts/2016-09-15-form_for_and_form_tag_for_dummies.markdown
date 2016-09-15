@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "form_for and form_tag for dummies"
-date:   2016-09-15 18:32:38 +0000
+date:   2016-09-15 14:32:39 -0400
 ---
 
 
@@ -19,7 +19,9 @@ As an example of a circumstance when form_tag is used, if you were making a sear
 The most basic form helper is **form_tag**, which literally creates as its name states "a <form> tag."
 
 <%= form_tag do %>
+
   Form contents
+	
 <% end %>
 
 When called without arguments like above, it creates a simple <form> tag which, when submitted, will POST to the current page. For instance, assuming the current page is /home/index, the generated HTML will look like this:
