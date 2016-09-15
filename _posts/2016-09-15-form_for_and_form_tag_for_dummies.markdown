@@ -12,7 +12,7 @@ I don't know about you, but **form_tag** and **form_for** gave me a lot of troub
 *ActionView*, a sub-gem of Rails, provides a number of helper methods to assist with streamlining view template code. These ActionView methods come pre-loaded with Rails so you don't have to build any separate functionality for them to work. Specifically, we can use ActionView methods to improve our forms. 
 Even though they seem like it, form helpers aren't magic; they're Ruby methods that accept arguments, such as the :title attribute and any additional parameters related to the form's elements.  **In this post we will discuss specifically form_tag and form_for. **
 
-When creating a form, the first question you should ask yourself is *"Should I be using formtag or formfor here?"* If you are not editing a models' attributes, then you want to use the generic form_tag because form_fors  are linked to one of your model objects (they correspond to a class in your models folder and are creating or editing an instance of a specific model.)
+When creating a form, the first question you should ask yourself is *"Should I be using form_tag or form_for here?"* If you are not editing a models' attributes, then you want to use the generic form_tag because form_fors  are linked to one of your model objects (they correspond to a class in your models folder and are creating or editing an instance of a specific model.)
 
 As an example of a circumstance when form_tag is used, if you were making a search form you would use the basic form_tag because there is no model object to reference/alter/create–you are just searching for something in the database. 
 
