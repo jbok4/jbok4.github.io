@@ -18,18 +18,20 @@ As an example of a circumstance when form_tag is used, if you were making a sear
 
 The most basic form helper is **form_tag**, which literally creates as its name states "a <form> tag."
 
+```
 <%= form_tag do %>
-
   Form contents
-	
 <% end %>
+```
 
 When called without arguments like above, it creates a simple <form> tag which, when submitted, will POST to the current page. For instance, assuming the current page is /home/index, the generated HTML will look like this:
 
-<form accept-charset="UTF-8" action="/" method="post">
-  <input name="utf8" type="hidden" value="&#x2713;" />
-    Form contents
-</form>
+```
+ <form accept-charset="UTF-8" action="/" method="post">
+   <input name="utf8" type="hidden" value="&#x2713;" />
+     Form contents
+ </form>
+```
 
 You'll notice that the HTML contains an input element with type hidden. This input is important, because the form cannot be successfully submitted without it. The hidden input element with the name utf8 enforces browsers to properly respect your form's character encoding and is generated for all forms whether their action is "GET" or "POST". 
 
@@ -46,14 +48,17 @@ A basic form_for implementation looks like this:
 
 <!-- app/views/posts/edit.html.erb //-->
 
+```
 <%= form_for @post do |f| %>
   <%= f.text_field :title %>
   <%= f.text_area :content %>
   <%= f.submit %>
 <% end %>
+```
 
 Which creates the corresponding HTML:
 
+```
 <form class="edit_post" id="edit_post" action="/posts/1" accept-charset="UTF-8" method="post">
   <input name="utf8" type="hidden" value="&#x2713;" />
   <input type="hidden" name="_method" value="patch" />
@@ -62,6 +67,7 @@ Which creates the corresponding HTML:
   <textarea name="post[content]" id="post_content">Existing Post Content</textarea>
   <input type="submit" name="commit" value="Update Post" />
 </form>
+```
 
 Form_tag doesn't know what action we're going to use it for, because it has no model object to check.  But form_for knows that an empty, unsaved model object needs a new form and a populated object needs an edit form. Which means that new.html.erb and edit.html.erb are exactly the same with form_for, regardless of the record being new or existing. Record identification (which comes pre-loaded with rails) is smart enough to figure out if the record is new by asking record.new_record?. It also selects the correct path to submit to and the name based on the class of the object. This means we get to skip all of these steps:
 
@@ -75,11 +81,13 @@ Here's what we would need to do with form_tag to generate the exact same HTML as
 
 <!-- app/views/posts/new.html.erb //-->
 
+```
 <%= form_tag post_path(@post), method: "patch", name: "edit_post", id: "edit_post" do %>
   <%= text_field_tag "post[title]", @post.title %>
   <%= text_area "post[content]", @post.content %>
   <%= submit_tag "Update Post" %>
 <% end %>
+```
 
 Thats a lot more specific code to get right. If this still isn't making sense, let's put it another way...
 
@@ -91,11 +99,13 @@ end
 
 The corresponding view app/views/posts/new.html.erb using form_for looks like this:
 
+```
 <%= form_for @post do |f| %>
   <%= f.text_field :title %>
   <%= f.text_area :content %>
   <%= f.submit "Create" %>
 <% end %>
+```
 
 There are a few things to note here:
 
@@ -104,11 +114,13 @@ The form_for method yields a form builder object (the f variable).
 Methods to create form controls are called on the form builder object f.
 The resulting HTML is:
 
+```
 <form accept-charset="UTF-8" action="/posts" method="post">
   <input id="post_title" name="post[title]" type="text" />
   <textarea id="post_content" name="post[content]"></textarea>
   <input name="commit" type="submit" value="Create" />
 </form>
+```
 
 The name passed to form_for controls the key used in params to access the form's values. Here the name is post and so all the inputs have names of the form post[attribute_name]. Accordingly, in the create action params[:post] will be a hash with keys :title and :content. 
 
