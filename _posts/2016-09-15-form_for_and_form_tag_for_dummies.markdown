@@ -5,7 +5,7 @@ date:   2016-09-15 14:32:39 -0400
 ---
 
 
-*info taken from ruby on rails guide [form helpers](http://guides.rubyonrails.org/formhelpers.html) and learn.co's form_tag form_for lessons*
+*Info taken from ruby on rails guide [form helpers](http://guides.rubyonrails.org/formhelpers.html) and learn.co's form_tag form_for lessons*
 
 I don't know about you, but **form_tag** and **form_for** gave me a lot of trouble, and so the best way to learn something? Explain it! So here goes:
 
