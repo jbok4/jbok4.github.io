@@ -93,9 +93,11 @@ Thats a lot more specific code to get right. If this still isn't making sense, l
 
 Assume we have a controller for dealing with articles app/controllers/posts_controller.rb:
 
+```
 def new
   @post = Post.new
 end
+```
 
 The corresponding view app/views/posts/new.html.erb using form_for looks like this:
 
