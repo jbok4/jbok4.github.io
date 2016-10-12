@@ -170,7 +170,7 @@ Then, create a new file in app/controllers/callbacks_controller.rb.
 Add the following code to it:
 
 ```
-class OmniauthCallbacksController < Devise::OmniauthCallbacksController
+class CallbacksController < Devise::OmniauthCallbacksController
   def facebook
     # You need to implement the method below in your model (e.g. app/models/user.rb)
     @user = User.from_omniauth(request.env["omniauth.auth"])
