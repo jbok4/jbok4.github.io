@@ -135,6 +135,7 @@ Updating the User Model
 
 The User model that Devise generated has to be changed to specify the service providers that we want to use. We're adding three items to the existing list (:omniauthable, :omniauth_providers => [:facebook], and don't forget the extra comma!). We also create a new method named from_omniauth to extract the information that is available after the authentication. 
 After editing it, your good_reads/app/models/user.rb should look like this:
+
 ```
 class User < ActiveRecord::Base
    devise :database_authenticatable, :registerable, :recoverable, :rememberable, 
