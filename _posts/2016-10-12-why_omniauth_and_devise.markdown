@@ -100,7 +100,7 @@ git push
 then to merge with the master branch we first switch back to the master branch
 
 ```
-git checkout -b master
+git checkout master
 git merge
 git add .
 git commit -m "Devise Added"
