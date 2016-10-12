@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Why Omniauth and Devise?"
-date:   2016-10-12 15:50:03 +0000
+date:   2016-10-12 11:50:03 -0400
 ---
 
 When I began to think about my Rails Assessment Project, implementing devise and omniauth, which are required, seemed daunting. I had trouble getting these to work in the Authentication section of Rails, and was really worried this would trip me up and I would never get through it. Boy was I wrong! I am now on board with both Devise and Omniauth! Here's a bit of a walkthrough/tutorial of how they work:
@@ -85,9 +85,7 @@ class ApplicationController < ActionController::Base
 end
 ```
 
-If you want to, you could start the development server again with the rails s command, and check out these newly added pages, You can now register as a new user by visiting http://localhost:3000/users/sign_up. You should see a page that looks like this:
-
-![](https://assets.digitalocean.com/articles/Configure_Devise/1.jpghttp://)
+If you want to, you could start the development server again with the rails s command, and check out these newly added pages, You can now register as a new user by visiting http://localhost:3000/users/sign_up. 
 
 If everything's working properly, lets stop the server by hitting control C and then save all our changes and merge and then switch branches. 
 
