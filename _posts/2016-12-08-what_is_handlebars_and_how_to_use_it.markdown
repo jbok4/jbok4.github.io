@@ -35,10 +35,10 @@ Written in JavaScript, Handlebars.js is a compiler that takes any HTML and Handl
  
 To use Handlebars, first you link to the Handlebars.js file in the head block of your HTML page, just like you do for jQuery or any .js files. Then there are 3 main pieces of code you use for Handlebars templating:
 
-**Handlebars.js Expressions**&#x2028;
+**Handlebars.js Expressions**
 
-A simple Handlebars expression is written like this (where “content” can be a variable or a helper function with—or without—parameters:&#x2028;
-`{{ content }} `
+A simple Handlebars expression is written like this (where “content” can be a variable or a helper function with—or without—parameters:
+`{{ content }}` 
 
 Or like this, in the case of Handlebars block expressions:
 
