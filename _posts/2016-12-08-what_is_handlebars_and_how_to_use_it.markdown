@@ -37,16 +37,7 @@ To use Handlebars, first you link to the Handlebars.js file in the head block of
 
 **Handlebars.js Expressions**
 
-A simple Handlebars expression is written like this (where “content” can be a variable or a helper function with—or without—parameters:
-`{{ content }}` 
 
-Or like this, in the case of Handlebars block expressions:
-
-```
-{{#each}} ​
-HTML content and other Handlebars expression go here and repeat for each iteration on the page.
-{{/each}}
-```
 Below is a Handlebars expression with HTML. The customerName variable is the property whose values will be inserted in place by the Handlebars.compile function:
 
 `<div> Name: {{ customerName }} </div>`
@@ -70,13 +61,13 @@ The second piece of code in Handlebars templating is the data you want to displa
 
 The last piece of code we need for Handlebars templating is actually a two-step execution:
 
-1. Compile the template with the Handlebars.compile function. (handlebars provides this function for you)
+Compile the template with the Handlebars.compile function. (handlebars provides this function for you)
 ```
 var source   = $("#entry-template").html();
 var template = Handlebars.compile(source);
 ```
 
-2. Then use that compiled function to invoke the data object passed to it (it takes a data object as its sole parameter). And this will return an HTML string with the interpolated object values inserted into the HTML.
+Then use that compiled function to invoke the data object passed to it (it takes a data object as its sole parameter). And this will return an HTML string with the interpolated object values inserted into the HTML.
 In short:
 The Handlebars.compile function takes the template as a parameter and it returns a JavaScript function. We then use this compiled function to execute the data object and return a string with HTML and the interpolated object values. Then we can insert the string into the HTML page.
 ```
@@ -87,7 +78,7 @@ var html    = template(context);
 
 **Here are the 3 pieces together:**
 
-- On the HTML page: Setup the templates by using Handlebars expressions, and add the templates to a script tag (if using script tags: templates in individual HTML files don’t need script tags):
+On the HTML page: Setup the templates by using Handlebars expressions, and add the templates to a script tag (if using script tags: templates in individual HTML files don’t need script tags):
 
 ```
 <script id="header" type="text/x-handlebars-template">​
@@ -95,17 +86,17 @@ var html    = template(context);
 Current User: {{userName}}
 ​</script>
 ```
-- In the JavaScript file: Initialize the data object
+In the JavaScript file: Initialize the data object
 
 ```
  var theData = {headerTitle:"Good Reads", userName:”Jaclyn”};
  ​
- ​// Retrieve the HTML from the script tag we setup in step 1​
+// Retrieve the HTML from the script tag we setup in step 1​
 // We use the id (header) of the script tag to target it on the page​
 var theTemplateScript = $("#header").html();
 ```
 
-- Also in the JavaScript file: Then we use the Handlebars compile function to compile the templates.
+Also in the JavaScript file: Then we use the Handlebars compile function to compile the templates.
 Compile the template retrieved from the script tag:
 
 ```
@@ -116,12 +107,9 @@ var theTemplate = Handlebars.compile (theTemplateScript);
 Use the theTemplate () function returned by the compile function to generate the final string with interpolated object values. We pass the object data as a parameter. Then attach the resulting string with HTML to the page:
 
 `$(document.body).append (theTemplate (theData));`
-This will return our HTML with the values from the object inserted in place, and the result will look like this:&#x2028;
+This will return our HTML with the values from the object inserted in place, and the result will look like this:
 
 
 Welcome to Good Reads
 
 Current User: Jaclyn
-
-
-
