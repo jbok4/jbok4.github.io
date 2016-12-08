@@ -5,7 +5,11 @@ date:   2016-12-08 11:21:17 -0500
 ---
 
 
-[Handlebars.js](http://handlebarsjs.com/) is a templating library -- much like mustache.js -- that "provides the power necessary to let you build semantic templates" based on data that is formatted as javascript objects. Using an example from the handlebar.js website, the library allows you to do things like this...
+So... you've built your app–and it works great, but its a little bit bland. Its like a kindergarten version of a grownup app/website. All this page reloading to get to a form, submit that form, and post data. This is where Ajax, JS and Jquery come in to save the day. They help to let forms show up inside the current page without a refresh, to GET data and POST data directly to the page also without ever having to refresh. Like how in your gmail, the new messages just appear, or you can send an email without refreshing your whole window. Or how on twitter the new tweets just feed in automatically. This is all done using ajax and jquery. The magic of programming continues to astound me. 
+
+So.. why am I talking about this, when Im supposed to be talking about Handlebars? Because handlebars is a tool that makes that user experience even better. It is a way to integrate your data into the html asynchronously by making your html templates into javascript readable functions and implementing them into your program! Lets find out how...
+
+[Handlebars.js](http://handlebarsjs.com/) is a templating library that "provides the power necessary to let you build semantic templates" based on data that is formatted as javascript objects. Using an example from the handlebar.js website, the library allows you to do things like this...
 
 ```
 <div class="entry">
