@@ -85,12 +85,12 @@ var html    = template(context);
 ```
 
 
-**Here are the 3 pieces together:&#x2028;**
+**Here are the 3 pieces together:**
 
 - On the HTML page: Setup the templates by using Handlebars expressions, and add the templates to a script tag (if using script tags: templates in individual HTML files don’t need script tags):
 
 ```
-&#x2028;<script id="header" type="text/x-handlebars-template">​
+<script id="header" type="text/x-handlebars-template">​
  <div>  Welcome to {{ headerTitle }} </div>​
 Current User: {{userName}}
 ​</script>
@@ -98,11 +98,11 @@ Current User: {{userName}}
 - In the JavaScript file: Initialize the data object
 
 ```
- var theData = {headerTitle:"Good Reads", userName:”Jaclyn”};&#x2028;&#x2028;
+ var theData = {headerTitle:"Good Reads", userName:”Jaclyn”};
  ​
  ​// Retrieve the HTML from the script tag we setup in step 1​
-&#x2028;// We use the id (header) of the script tag to target it on the page​
- &#x2028;var theTemplateScript = $("#header").html();&#x2028;
+// We use the id (header) of the script tag to target it on the page​
+var theTemplateScript = $("#header").html();
 ```
 
 - Also in the JavaScript file: Then we use the Handlebars compile function to compile the templates.
@@ -110,8 +110,8 @@ Compile the template retrieved from the script tag:
 
 ```
 // The Handlebars.compile function returns a function to theTemplate variable​
-&#x2028;var theTemplate = Handlebars.compile (theTemplateScript);&#x2028;
-```&#x2028;
+var theTemplate = Handlebars.compile (theTemplateScript);
+```
 
 Use the theTemplate () function returned by the compile function to generate the final string with interpolated object values. We pass the object data as a parameter. Then attach the resulting string with HTML to the page:
 
