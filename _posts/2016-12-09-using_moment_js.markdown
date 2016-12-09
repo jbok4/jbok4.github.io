@@ -44,4 +44,4 @@ Thank goodness for moment.js
 
 Here are some of the other formats you can use (and there are still more to choose from on [moment.js](http://momentjs.com/)
 
-![<img src="img/Moment_js1.jpg">]
+<img src="/img/Moment_js1.jpg">
