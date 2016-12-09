@@ -30,7 +30,8 @@ var date = created_at;
 var dateNew = new Date(date);
 //new Date(date) is used to make the timestamp into a Date object, so moment.js can do it magic
 
-var momentNew = moment(dateNew).format("MMM Do YY"); //there are plenty of other formats to choose from
+var momentNew = moment(dateNew).format("MMM Do YY"); 
+//there are plenty of other formats to choose from
 console.log(Posted: " + momentNew);
 ```
 
