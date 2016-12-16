@@ -5,7 +5,7 @@ date:   2016-12-16 15:57:21 -0500
 ---
 
 
-Before jumping right into the codespeak, lets speak easy ... Think back to when you first started to learn JS, and it all seemed so overwhelming. There were so many different functions and brackets and error handlers, and nested items to do something that before you got overwhelmed it didnt seem like it would take THAT many steps... did it? I mean just yesterday you leared what JQuery methods were, and now we are building these neverending JS functions with all these nested parts, and OMG did I forget a closing bracket somewhere? This is where promises come in to save the day. They are a way to organize your code into something both readable and synchronous. 
+Before jumping right into the codespeak, lets speak easy ... Think back to when you first started to learn JS, and it all seemed so overwhelming. There were so many different functions and brackets and error handlers, and nested items to do something that before you got overwhelmed it didnt seem like it would take THAT many steps... did it? I mean just yesterday you learned what JQuery methods were, and now we are building these neverending JS functions with all these nested parts, and OMG did I forget a closing bracket somewhere? This is where promises come in to save the day. They are a way to organize your code into something both readable and synchronous. 
 
 Promises are an alternative method to using Callbacks, for managing asynchronous requests in your codebase - which in english means - to make javascript run in the order of your choosing, instead of all at once or whichever runs the fastest shows up first. JS without promises is like the wild west–Every man(function) for himself. 
 
