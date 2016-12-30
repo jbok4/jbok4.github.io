@@ -68,10 +68,7 @@ Data binding in AngularJS is the synchronization between the model and the view.
 
 When data in the model changes, the view reflects the change, and when data in the view changes, the model is updated as well. This happens immediately and automatically, which makes sure that the model and the view are up to date at all times, no need to worry about refreshing the content.
 
-```<div ng-app="myApp" ng-controller="myCtrl">
-    Name: <input ng-model="username">
-    <h1>{{ username }}</h1>
-</div>```
+<img src="/img/username_brackets4.jpg" alt="curly brackets4">
 
 ```<script>
 var app = angular.module('myApp', []);
@@ -91,16 +88,8 @@ Another way to use binding in Angular applications is to use the `ng-bind` direc
 
 Switch from curly brackets to `ng-bind`
 
-```
-<div ng-app>
-  <h1 ng-bind="'Binding ' + username"></h1>
-  <input type="text" ng-model="username">
-  <p ng-bind="username"></p>
-  <p ng-bind="username + username"></p>
-  <p ng-bind="username === 'Jaclyn'"></p>
-  <p ng-bind="2 + 2"></p>
-</div>
-```
+<img src="/img/username_brackets6.jpg" alt="curly brackets6">
+
 The functionality is exactly same as before, this is just an alternative way of displaying Angular expressions. The downside to `ng-bind` is that the entire text of the element gets replaced with what the expression returns, so we had to move the Binding text from our header into the `ng-bind` expression to get the same results as before.
 
 **One-Time Binding**
@@ -108,16 +97,8 @@ The final way to bind data is one-time binding. As the name suggests, this means
 
 See one-time binding in action with the following code:
 
-```
-<div ng-app>
-  <h1 ng-bind="'Binding ' + username"></h1>
-  <input type="text" ng-model="username" ng-init="username = 'Jaclyn'">
-  <p ng-bind="username"></p>
-  <p ng-bind="username + username"></p>
-  <p ng-bind="::username === 'Jaclyn'"></p>
-  <p ng-bind="2 + 2"></p>
-</div>
-```
+<img src="/img/username_brackets5.jpg" alt="curly brackets5">
+
 Here we used the `ng-init` directive to initialize username with a value of Jaclyn. `ng-init` is a directive that evaluates the given expression once when the element is initialized. Note that `ng-init` shouldn't be used regularly, as you should be initializing your variables in your controllers. We're using a one-time binding in the third paragraph, which made it so once the value in username was compared to Jaclyn, that specific expression stopped listening for changes to username, leaving the value of true to stay in that paragraph regardless of what we put into our text input.
 
 I feel like each time I write a post explaining something code oriented, it becomes a lot clearer after. This, as with the others, is one of those situations. Once you spend a little time experimenting with the ways in which you can use `ng-bind` it becomes a simple task, and is indeed a very cool feature of angular. 
