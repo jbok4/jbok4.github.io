@@ -16,7 +16,7 @@ You can use the `ng-bind` directive, which will bind the innerHTML of the elemen
 ```
 You can also use double braces `{{ }}` to display content from the model:
 
-`<p>Name: {{ username }}</p>`
+`<p>Name: `{{ username }}`</p>`
 
 Or you can use the `ng-model` directive on HTML controls to bind the model to the view.
 The `ng-model` directive provides a two-way binding between the model and the view.
