@@ -58,11 +58,7 @@ Now that we have a variable set up that we can provide input for, let's bind our
 
 Create a paragraph tag underneath our `input` field to display our input
 
-```<div ng-app>
-  <h1>Let's Learn How To Use Angular Binding</h1>
-  <input type="text" ng-model="username">
-  <p>\{\{ username \}\}</p>
-</div>```
+<img src="/img/username_brackets2.jpg" alt="curly brackets2">
 
 Now if we start typing into our `input` field, we can see the text we're typing appear below our input field. What's in between the brackets is an Angular expression. The brackets lets Angular know that there is an expression that needs to be evaluated, which Angular will then evaluate and replace the brackets with the results. Angular expressions are slightly different from javascript expressions.
 
@@ -86,14 +82,7 @@ app.controller('myCtrl', function($scope) {
 
 Try out a couple different expressions with the following code:
 
-```<div ng-app>
-  <h1>Binding \{\{ username \}\}</h1>
-  <input type="text" ng-model="username">
-  <p>\{\{ username \}\}</p>
-  <p>\{\{ username + username\}\}</p>
-  <p>\{\{ username === 'Jaclyn'\}\}</p>
-  <p>\{\{ 2 + 2 \}\}</p>
-</div>```
+<img src="/img/username_brackets3.jpg" alt="curly brackets3">
 
 Here, we added our username to our header. Our second paragraph will display our username twice, and our third paragraph will display false until we type Jaclyn into our `input`. Our last paragraph simply displays 4, which is the result of 2 + 2.
 
