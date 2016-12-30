@@ -14,9 +14,7 @@ You can use the `ng-bind` directive, which will bind the innerHTML of the elemen
 ```
 <p ng-bind="username"></p>
 ```
-You can also use double braces \{\{ \}\} to display content from the model:
-
-`<p>Name: {{ username }}</p>`
+<img src="/img/username_brackets1.jpg" alt="curly brackets">
 
 Or you can use the `ng-model` directive on HTML controls to bind the model to the view.
 The `ng-model` directive provides a two-way binding between the model and the view.
