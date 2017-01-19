@@ -3,7 +3,7 @@ layout: post
 title:  "Final Project! The Hard Process Of Putting It All Together"
 date:   2017-01-19 15:57:21 -0500
 ---
-Project: Make a full-stack app, combining rails/JSON with an angular frontend–that can speak to each other. Wow. Where to even begin? I had so many questions. I took a few weeks to do some online tutorials. wrap my brain around the problem and my lack of experience building with angular (and zero experience with how to work with angular+rails together, then watch as many youtube codealongs as I could for angular, until I finally felt I was ready to take a stab at it. 
+Project: Make a full-stack app, combining rails/JSON with an angular frontend–that can speak to each other. Wow. Where to even begin? I had so many questions. I took a few weeks to do some online tutorials. wrap my brain around the problem and my lack of experience building with angular (and zero experience with how to work with angular+rails together), then watch as many youtube codealongs as I could for angular, until I finally felt I was ready to take a stab at it. 
 
 **4 false starts later - I had it! My idea** 
 
