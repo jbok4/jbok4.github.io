@@ -15,11 +15,15 @@ Recursion is, in general, the more natural approach in functional languages, and
 
 **Q: What's new in Rails 5?**
 
-• In Rails 5, the rails-api gem will be merged into core allowing the use of Rails as a simple JSON API. 
-• Rails 5 will only work on Ruby 2.2.1 and above.
-• TurboLinks 3 - Tubolinks 3 allows you to retain most of your page and selectively update certain regions through partials. This is very similar to how SPA’s work, and you can choose to do all this from the server, this offers an instantaneous performance boost.
-• Action Cable
-• Rake inside Rails–For many a Rails noob, having to figure out when to use rake and when to use rails is a source of confusion. Now you don’t need to switch context between the rake and rails commands. You can run all Rake tasks with the rails keyword. For instance,
+* In Rails 5, the rails-api gem will be merged into core allowing the use of Rails as a simple JSON API. 
+
+* Rails 5 will only work on Ruby 2.2.1 and above.
+
+* TurboLinks 3 - Tubolinks 3 allows you to retain most of your page and selectively update certain regions through partials. This is very similar to how SPA’s work, and you can choose to do all this from the server, this offers an instantaneous performance boost.
+
+* Action Cable
+
+* Rake inside Rails–For many a Rails noob, having to figure out when to use rake and when to use rails is a source of confusion. Now you don’t need to switch context between the rake and rails commands. You can run all Rake tasks with the rails keyword. For instance,
 
 ``rake db:migrate``
 
@@ -28,15 +32,16 @@ will now become:
 ``rails db:migrate``
 
 This may not look like much on the surface, but this will make the lives of beginners much simpler. Rails 5 will also add a restart command that quickly restarts the application.
-• One change that almost went unnoticed was the update to belongs_to. When you create a Student belongs_to Class relation, it was possible to create a student without an associated Class relation. This lead to a lot of data inconsistencies. With Rails 5, the parent has become mandatory. 
+
+* One change that almost went unnoticed was the update to ``belongs_to``. When you create a Student ``belongs_to`` Class relation, it was possible to create a student without an associated Class relation. This lead to a lot of data inconsistencies. With Rails 5, the parent has become mandatory. 
 
 **Q: Explain the different pieces of Rails.**
 
-•ActiveRecord -> ORM
-•ActiveResource -> the main class for mapping RESTful resources as models in a Rails application.
-•ActionPack -> the Controller and View layers are handled together by Action Pack.
-•ActiveSupport-> Active Support is a grab bag of utility methods and extensions to the Ruby standard library that accelerate development by providing syntactic sugar and easy ways to write expressive and DRY code
-•ActionMailer -> mailer
+* ActiveRecord -> ORM
+* ActiveResource -> the main class for mapping RESTful resources as models in a Rails application.
+* ActionPack -> the Controller and View layers are handled together by Action Pack.
+* ActiveSupport-> Active Support is a grab bag of utility methods and extensions to the Ruby standard library that accelerate development by providing syntactic sugar and easy ways to write expressive and DRY code
+* ActionMailer -> mailer
 
 **Some technical interview terms**
 
