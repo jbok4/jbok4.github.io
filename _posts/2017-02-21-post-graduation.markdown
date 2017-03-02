@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Post Graduation Project 1: Technical Interviewing 101"
+title:  "Graduation!"
 date:   2017-02-21 15:57:21 -0500
 ---
 
