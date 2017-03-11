@@ -11,7 +11,7 @@ Recursive programming is the process of progressively reducing a problem into ea
 
 Here is an example from a technical interview I recently had:
 
-Let's say you are given an array of n integers, which represents the prices of a stock over n consecutive days. Please write a function that returns the biggest loss you could incur over those n days by buying high and selling low.
+Let's say you are given an array of *n* integers, which represents the prices of a stock over *n* consecutive days. Please write a function that returns the biggest loss you could incur over those *n* days by buying high and selling low.
 
 ```
 test_1 = [6, 14, 1, 23, 18, 8, 11] // 15
