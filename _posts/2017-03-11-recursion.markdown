@@ -30,7 +30,7 @@ To solve the problem, only the items that come AFTER that number count. You can 
 
 **Step 2.** Find the smallest value in the remaining array and set it to the variable *secondValue*.
 
-**Step 3.** Store the difference from firstValue - secondValue as the *n* variable 
+**Step 3.** Store the difference from *firstValue - secondValue* as the *n* variable 
 
 **Step 4.** Repeat steps 1-3 if the array has more than one item in it. Each time through step 3, check to see that the existing *n* value is larger than the difference from step 2. Whichever value is largest, should be the new value of *n*. Make sure to set the value of *n* when recalling the function to *n* = *n* (which retains the current value instead of resetting *n* to the zero value).
 
