@@ -22,7 +22,8 @@ test_2 = [17, 5, 7, 19, 8] // 13
 
 How to think this through recursively in pseudo code...
 
-*n* should never equal nil, because that is not an integer, so to begin, we will set *n* = 0. 
+*n* should never equal nil, because that is not an integer, so to begin, we will set 
+*n* = 0. 
 
 **Step 1.** The variable *firstValue* should equal the first value in the array. Once *firstValue* is set to that value, we can delete that item from the array, as we no longer need it. 
 To solve the problem, only the items that come AFTER that number count. You can only sell something AFTER you have purchased it. 
