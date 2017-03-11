@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Technical Interview Prep with Rails, Part 1"
+title:  "Technical Interview Prep with Ruby, Part 1"
 date:   2017-03-01 15:57:21 -0500
 ---
 Jumping right in today, with some general knowledge questions for Technical Interview Prep.
