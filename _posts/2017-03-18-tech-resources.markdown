@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Technical Interview Prep Online Resources"
-date:   2017-03-18 15:57:21 -0500
+date:   2017-03-17 15:57:21 -0500
 ---
 
 **Utilizing Your Free Online Resources**
