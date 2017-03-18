@@ -29,3 +29,6 @@ master algorithm design, system design, and much more by learning with theoretic
 5. <a href="https://github.com/rails-camp/ruby-coding-exercises">Daily Coding Exercises in Ruby</a> on github.  I came across this amazing find while watching a youtube video by ...
 
 6. <a href="https://www.youtube.com/user/edutechional">edutechional</a> 
+These are very fun and short logic Ruby questions. Things you might find on a Ruby Tech Interview and that can give you confidence to know you will do well. 
+
+Good Luck!
