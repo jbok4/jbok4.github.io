@@ -6,3 +6,39 @@
 .navbar, .navbar-header, .navbar-brand {
   height: 100px;
 }
+
+.container-fluid.full-width {
+    padding-left: 0;
+    padding-right: 0;
+    overflow-x: hidden;
+}
+
+ h2.title-copy {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 500;
+  padding: 80px 30px 0 80px;
+  color: white;
+}
+
+ h3.title-copy {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 400;
+  padding: 30px 80px 0 80px;
+  color: white;
+}
+
+.title-meet {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #eee;
+}
+
+.background-image {
+  background-image: url('../img/playerstribune/us-masters-golf-2016.jpg');
+  background-size: cover;
+}
+
+.card-img-top {
+    max-width:100%;
+  max-height:100%;
+}
