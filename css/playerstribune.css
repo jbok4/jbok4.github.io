@@ -1,0 +1,8 @@
+.navbar-brand img {
+  max-width:100%;
+  max-height:100%;
+}
+
+.navbar, .navbar-header, .navbar-brand {
+  height: 100px;
+}
