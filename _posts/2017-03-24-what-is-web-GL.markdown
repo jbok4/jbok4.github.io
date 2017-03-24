@@ -8,7 +8,7 @@ WebGL (Web Graphics Library) is the new standard for 3D graphics on the Web, It 
 
 It is a JavaScript API that can be used with HTML5. HTML5 has several features to support 3D graphics such as 2D Canvas, WebGL, SVG, 3D CSS transforms, and SMIL.
 
-WebGL code is written within the <canvas> tag of HTML5. It is a specification that allows Internet browsers access to Graphic Processing Units (GPUs) on those computers where they were used.
+WebGL code is written within the ``<canvas>`` tag of HTML5. It is a specification that allows Internet browsers access to Graphic Processing Units (GPUs) on those computers where they were used.
 
 An American-Serbian software engineer named Vladimir Vukicevic did the foundation work and led the creation of WebGL.
 
@@ -28,4 +28,4 @@ Automatic memory management − JavaScript supports automatic memory management.
 Easy to set up − Since WebGL is integrated within HTML 5, there is no need for additional set up. To write a WebGL application, all that you need is a text editor and a web browser.
 
 
-shadertoy.com to see what you can make with webGl strictly using the "Shader" tool
+Check out shadertoy.com to see what you can make with webGl strictly using the "Shader" tool.
