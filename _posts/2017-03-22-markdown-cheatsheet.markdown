@@ -14,15 +14,19 @@ When using Markdown, people who edit content can focus on the words and later th
 
 Markdown is widely accepted by developers and editors, so it's the best choice for implementing best practice.
 
-Markdown was initially created by John Gruber (of Daring Fireball) as a simple way for non-programming types to write in an easy-to-read format that could be converted directly into HTML.
+Markdown was initially created by **John Gruber** (*of Daring Fireball*) as a simple way for non-programming types to write in an easy-to-read format that could be converted directly into HTML.
 
 Markdown uses a very simple formatting syntax to accomplish the same thing that HTML or Rich Text Formatting does. The difference is that it's simpler than HTML and you don't have to worry about opening and closing tags. It also doesn't have all of the menus associated with most text editing programs. To format text, Markdown uses punctuation and characters you're already familiar with.
 
 For example, to create a header you use hashtags. So, "# HEADLINE" is a large header. "## HEADLINE" would be a little smaller, "### HEADLINE" would be smaller still.
 
+# HEADLINE 1
+## HEADLINE 2
+### HEADLINE 3
+
 Want to make a bulleted list? Just type in a "-" "+" or "*" before any item and the list is created automatically. No need to start it, end it, or deal with funky formatting.
 
-To add emphasis, you can either use an asterisk (*really?*) for italics, or two asterisks for bold (**really!**).
+To add emphasis, you can either use an asterisk `(*really?*)` for italics, or two asterisks for bold `(**really!**)`.
 
 To Recap:  Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like # or *.
 
@@ -54,6 +58,7 @@ As Grace Hopper said:
  I've always been more interested
  in the future than in the past.
  ```
+
 
 
 # BACKSLASH ESCAPES
