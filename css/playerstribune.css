@@ -7,30 +7,136 @@
   height: 100px;
 }
 
+body {
+  background-color: #fff;
+}
+
+.se-container{
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 150px;
+}
+
+.se-slope{
+  margin: 0 -50px;
+  transform-origin: left center;
+}
+.se-slope:nth-child(odd){
+  background: #000;
+  transform: rotate(5deg);
+  margin-top: -200px;
+  box-shadow: 0px -1px 3px rgba(0,0,0,0.4);
+}
+.se-slope:nth-child(even){
+  background: #fff;
+  transform: rotate(-5deg);
+  box-shadow: 0px 2px 3px rgba(0,0,0,0.4) inset;
+}
+
+.se-content{
+  margin: 0 auto;
+}
+
+.se-content h3{
+  font-size: 60px;
+  position: relative;
+  display: inline-block;
+  padding: 10px 30px 8px 30px;
+  height: 80px;
+  line-height: 80px;
+  margin-bottom: 20px;
+  font-family: "Trade Gothic W01",Helvetica,Arial,sans-serif;
+  font-style: italic;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.9);
+}
+
+.se-content h4{
+  font-size: 1.5em;
+  position: relative;
+  width: 75%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 10px;
+  /*display: inline-block;*/
+  height: 40px;
+  line-height: 40px;
+  /*margin-bottom: 20px;*/
+  font-family: "Trade Gothic W01",Helvetica,Arial,sans-serif;
+  font-style: italic;
+  /*text-shadow: 1px 1px 1px rgba(0,0,0,0.9);*/
+}
+.se-slope:nth-child(odd) .se-content h3{
+  color: #fff;
+}
+.se-slope:nth-child(even) .se-content h3{
+  color: #9e9e9e;
+}
+
+.se-slope:nth-child(odd) .se-content h3:before,
+.se-slope:nth-child(odd) .se-content h3:after{
+  border-right-color: #eee;
+  border-left-color: #eee;
+}
+
 .container-fluid.full-width {
-    padding-left: 0;
-    padding-right: 0;
-    overflow-x: hidden;
+  padding-left: 0;
+  padding-right: 0;
+  overflow-x: hidden;
 }
 
- h2.title-copy {
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-weight: 500;
-  padding: 80px 30px 0 80px;
-  color: white;
+p {
+  color: #9e9e9e;
+  width: 75%;
+  max-width: 600px;
+  margin: 0 auto;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 24px;
+  padding-top: 10px;
 }
 
- h3.title-copy {
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-weight: 400;
+.se-content p:first-letter{
+  font-size: 40px;
+  font-family: 'Adobe Garamond Pro', Georgia, serif;
+}
+.se-slope:nth-child(odd) .se-content{
+  transform: rotate(-5deg);
+  color: #eee;
+  padding: 130px 100px 250px 100px;
+}
+.se-slope:nth-child(even) .se-content{
+  transform: rotate(5deg);
+  color: #000;
+  padding: 150px 100px 250px 100px;
+}
+
+ .title-copy {
+  font-family: "Trade Gothic W01",Helvetica,Arial,sans-serif;
+  font-style: italic;
+  font-stretch: normal;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.2em;
+  font-size: 2.25em;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
   padding: 30px 80px 0 80px;
-  color: white;
 }
+
 
 .title-meet {
-  font-size: 1.5em;
-  font-weight: 700;
-  color: #eee;
+  font-family: "Trade Gothic W01",Helvetica,Arial,sans-serif;
+    font-style: italic;
+  font-stretch: normal;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.2em;
+  font-size: 2.25em;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+
 }
 
 .background-image {
