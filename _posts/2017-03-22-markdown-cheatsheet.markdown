@@ -28,14 +28,14 @@ To Recap:  Mostly, Markdown is just regular text with a few non-alphabetic chara
 
 Here are some of the most used
 
-##HEADERS
+## HEADERS
 ```
 # This makes an <h1> tag. 
 ## This is an <h2> tag.
 #### This is an <h4> tag.
 ```
 
-##EMPHASIS
+## EMPHASIS
 ```
 *This text will be italic*
 _This will also be italic_
@@ -44,7 +44,7 @@ __This will also be bold__
 *You **can** combine them*
 ```
 
-##BLOCKQUOTES
+## BLOCKQUOTES
 ```
 As Grace Hopper said:
 > I’ve always been more interested
@@ -54,14 +54,14 @@ As Grace Hopper said:
  in the future than in the past.
  ```
 
-##BACKSLASH ESCAPES
+## BACKSLASH ESCAPES
 Markdown allows you to use backslash escapes to generate literal characters which
 would otherwise have special meaning in Markdown’s formatting syntax.
 
 \*literal asterisks\*
 *literal asterisks*
 
-##Markdown provides backslash escapes for the following characters:
+## Markdown provides backslash escapes for the following characters:
 ```
 \ backslash
 ` backtick

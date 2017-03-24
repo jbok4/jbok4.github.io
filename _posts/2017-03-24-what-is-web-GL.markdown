@@ -4,7 +4,9 @@ title:  "What is WebGL?"
 date:   2017-03-24 15:57:21 -0500
 ---
 
-WebGL (Web Graphics Library) is the new standard for 3D graphics on the Web, It is designed for the purpose of rendering 2D graphics and interactive 3D graphics. It is derived from OpenGL's ES 2.0 library which is a low-level 3D API for phones and other mobile devices. WebGL provides similar functionality of ES 2.0 (Embedded Systems) and performs well on modern 3D graphics hardware.
+WebGL (Web Graphics Library) is the new standard for 3D graphics on the Web, It is designed for the purpose of rendering 2D graphics and interactive 3D graphics. 
+
+It is derived from OpenGL's ES 2.0 library which is a low-level 3D API for phones and other mobile devices. WebGL provides similar functionality of ES 2.0 (Embedded Systems) and performs well on modern 3D graphics hardware.
 
 It is a JavaScript API that can be used with HTML5. HTML5 has several features to support 3D graphics such as 2D Canvas, WebGL, SVG, 3D CSS transforms, and SMIL.
 
@@ -12,7 +14,7 @@ WebGL code is written within the ``<canvas>`` tag of HTML5. It is a specificatio
 
 An American-Serbian software engineer named Vladimir Vukicevic did the foundation work and led the creation of WebGL.
 
-##Advantages of WebGL
+## Advantages of WebGL
 **Here are the advantages of using WebGL −**
 
 JavaScript programming − WebGL applications are written in JavaScript. Using these applications, you can directly interact with other elements of the HTML Document. You can also use other JavaScript libraries (e.g. JQuery) and HTML technologies to enrich the WebGL application.
