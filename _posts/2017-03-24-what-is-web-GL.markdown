@@ -12,7 +12,7 @@ WebGL code is written within the ``<canvas>`` tag of HTML5. It is a specificatio
 
 An American-Serbian software engineer named Vladimir Vukicevic did the foundation work and led the creation of WebGL.
 
-##2Advantages of WebGL##2
+##Advantages of WebGL
 **Here are the advantages of using WebGL −**
 
 JavaScript programming − WebGL applications are written in JavaScript. Using these applications, you can directly interact with other elements of the HTML Document. You can also use other JavaScript libraries (e.g. JQuery) and HTML technologies to enrich the WebGL application.
