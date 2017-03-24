@@ -57,9 +57,10 @@ As Grace Hopper said:
 ## BACKSLASH ESCAPES
 Markdown allows you to use backslash escapes to generate literal characters which
 would otherwise have special meaning in Markdown’s formatting syntax.
-
+```
 \*literal asterisks\*
 *literal asterisks*
+```
 
 ## Markdown provides backslash escapes for the following characters:
 ```
