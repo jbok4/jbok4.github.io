@@ -44,6 +44,10 @@ body {
   margin: 0 auto;
 }
 
+.se-content a{
+  color: #FFCDD2;
+}
+
 .se-content h3{
   width: 75%;
   font-size: 60px;
