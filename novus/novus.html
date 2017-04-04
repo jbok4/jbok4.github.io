@@ -12,7 +12,20 @@
 
 
 <div class='container'>
-  <h2>Jackies Chart</h2>
+<div class="row">
+    <h2>Jackies Chart</h2>
+</div>
+
+  <div class="row">
+    <form id="form1">
+      <select id="sel" onChange="categorySelect()">
+        <option value="1">Profits</option>
+        <option value="2">Inventory</option>  
+      </select>
+    </form>
+  </div>
+
+    <div id="cat"></div>
 
     
     <div id="bar0" class="bars"><p id="element0" class="number"></p></div>
