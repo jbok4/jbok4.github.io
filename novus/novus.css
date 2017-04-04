@@ -1,0 +1,16 @@
+h2 {
+  color: red;
+}
+
+.bars {
+background-color: #4FC3F7;
+height: 30px;
+margin: 10px 0 0 0;
+}
+
+.number {
+color: white;
+text-align: right;
+padding: 3px;
+font-size: 12px; 
+}
