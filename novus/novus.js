@@ -8,29 +8,34 @@ var data = [
 {  month: "Jul",  profits: 190000,  inventory: 500   }
 ];
 
+var categories = ["Profits", "Inventory"]
 
-document.getElementById("cat").innerHTML = "<strong>" + "Profits" + "</strong>";
-for (var i = 0; i<data.length; i++) {
-document.getElementById("month" + i).innerHTML= data[i].month;
-document.getElementById("element" + i).innerHTML= data[i].profits;
-document.getElementById("bar" + i).style.width = data[i].profits/1500 + "%";
+
+function writeData() {
+  for (var i = 0; i<data.length; i++) {
+  document.getElementById("month" + i).innerHTML= data[i].month;
+  document.getElementById("element" + i).innerHTML= data[i].profits;
+  document.getElementById("bar" + i).style.width = data[i].profits/1500 + "%";
+  };
 };
+
+document.getElementById("cat").innerHTML = "<strong>" + categories[0] + "</strong>";
+writeData(); 
 
 
 function categorySelect() {
-var m = document.getElementById("sel").value;
-if (m == "1")
+var dropdownItem = document.getElementById("sel").value;
+if (dropdownItem == "1")
 {
-document.getElementById("cat").innerHTML = "<strong>" + "Profits" + "</strong>";
+document.getElementById("cat").innerHTML = "<strong>" + categories[0] + "</strong>";
 for (var i = 0; i<data.length; i++) {
   document.getElementById("element" + i).innerHTML= data[i].profits;
-  document.getElementById("bar" + i).style.width = data[i].profits/1500 + "%";
-    
+  document.getElementById("bar" + i).style.width = data[i].profits/1500 + "%";  
     }; 
-} // end if
+} 
 
-else if (m == "2") {
-document.getElementById("cat").innerHTML = "<strong>" + "Inventory" + "</strong>";
+else if (dropdownItem == "2")  {
+document.getElementById("cat").innerHTML = "<strong>" + categories[1] + "</strong>";
 for (var i = 0; i<data.length; i++) {
   document.getElementById("element" + i).innerHTML= data[i].inventory;
   document.getElementById("bar" + i).style.width = data[i].inventory/50 + "%";
