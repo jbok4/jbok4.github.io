@@ -33,7 +33,22 @@ margin-top: 10px;
   background-color: #0277BD;
   
 }
+
+.y-axis {
+  text-align: left;
+
+}
+
+body { padding-bottom: 70px; }
   
+
+.navbar-default {
+  background-color: #E1F5FE;
+}
+
+.navbar-default .navbar-brand {
+    color: #01579B;
+}
 
 
 
