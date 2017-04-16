@@ -39,7 +39,8 @@ post '/users/:id/seen', to: 'users#seePatient', as: 'user_see_patient'
 ```
 
 Now if we run `rake routes` we see
- `user_see_patient POST   /users/:id/seen(.:format)                    users#seePatient`
+
+```user_see_patient POST   /users/:id/seen(.:format)                    users#seePatient```
 
 Which is exactly what we want. All the pieces linking together perfectly.
 
