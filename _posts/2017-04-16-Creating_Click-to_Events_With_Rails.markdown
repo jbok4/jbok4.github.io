@@ -14,7 +14,7 @@ In my example I will use a method where upon the click event, the `User.doctor_i
 
 
 ```ruby
-<%= link_to 'Click Here', user_see_patient_path(user.id), method: :post %>
+<%= link_to "Click Here", user_see_patient_path(user.id), method: :post %>
 ```
 
 Now when the link_to is clicked, you are setup to begin the process of running your method, or `click event`. 
