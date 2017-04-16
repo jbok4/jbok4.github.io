@@ -7,7 +7,7 @@ date:   2017-04-16 15:57:21 -0500
 You have a form in your rails project, and you want to create a click event. How to go about doing it? 
 Its simple really, but you have to think about it in rails terms. **With Views, Controllers, and Routes**.
 
-###First step is to create the click event in the form. 
+### First step is to create the click event in the form. 
 A Link to will work just fine.
 
 In my example I will use a method where upon the click event, the `User.doctor_id` will update to `doctor_id:5`
@@ -19,7 +19,7 @@ In my example I will use a method where upon the click event, the `User.doctor_i
 
 Now when the link_to is clicked, you are setup to begin the process of running your method, or `click event`. 
 
-###Next step is to create said method in your controller.
+### Next step is to create said method in your controller.
 
 
 ```ruby
@@ -32,7 +32,7 @@ class UsersController < ApplicationController
 end
 ```
 
-###Finally the last step
+### Finally the last step
 is to let the view know how to find the appropriate method. We do this by creating a post route in the routes.rb file.
 
 ```ruby
