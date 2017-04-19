@@ -33,7 +33,7 @@ h3 {
 .letters {
   animation-name: example;
   animation-duration: 2s; 
-  animation-delay: 1s;
+  animation-delay: 1.5s;
   animation-timing-function: ease-in;
   animation-iteration-count: 1;
   animation-fill-mode: both;
