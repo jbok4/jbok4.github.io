@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Skia';
+  src: url('../fonts/Skia.ttf.eot'),
+       url('../fonts/Skia.ttf.woff') format('woff'),
+       url('../fonts/Skia.ttf.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+h3 {
+  font-family: 'Skia';
+}
