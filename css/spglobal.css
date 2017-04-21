@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lora');
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700|Raleway:400,300,700);
 
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #304352;
+
+}
+
 .wrap {
   width:250px; 
   margin-top: -30px; 
@@ -16,24 +22,45 @@
   z-index: 2;
 }
 
+.color {
+  /*background: #777;*/
+background: #304352;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  transition: background .2s ease-in-out;
+}
+
+.color:hover {
+  /*background: #FF8F00;*/
+  background: #C02425;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F0CB35, #C02425);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F0CB35, #C02425); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  
+}
+
 .msg {
   font-size:1em;
   font-family: 'Raleway', serif;
   text-align: justify;
   text-justify: inter-word;
+  transition: color .2s ease-in-out;
+  color: #777;
 }
 
 .msg:nth-child(odd) {
-  color: #887f77;
+  color: #999;
 }
 
 .msg:hover {
-  color: #cd4436;
+  color: #FFF;
 }
 
 h2  {
   font-family: 'Raleway', serif;
   font-size: 1.3em;
+  color: #FFF;
 }
 
 .sticker {
