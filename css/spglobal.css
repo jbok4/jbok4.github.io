@@ -1,16 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Lora');
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700|Raleway:400,300,700);
 
-/*body {padding:6em 8em; margin: auto; background:#fff;}*/
+.wrap {
+  width:250px; 
+  margin-top: -30px; 
+  text-align: justify;
+  text-justify: inter-word;
+}
 
-.wrap {width:200px; margin-top: -30px; }
-
-.wrap2 {width:700px; margin: auto; margin-left: 225px; padding-top: 50px; z-index: 2;}
+.wrap2 {
+  width:700px; 
+  margin: auto; 
+  margin-left: 225px; 
+  padding-top: 50px; 
+  z-index: 2;
+}
 
 .msg {
-  text-align:left;
   font-size:1em;
   font-family: 'Raleway', serif;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .msg:nth-child(odd) {
@@ -19,7 +29,6 @@
 
 .msg:hover {
   color: #cd4436;
-/*  font-weight: bold;*/
 }
 
 h2  {
@@ -49,13 +58,13 @@ h2  {
   left: 600px;
   padding-top: 20px;
   z-index: -1;
-  animation: spin 20s .5s linear infinite;
+  animation: spin 25s .5s linear infinite;
 }
 
 .sticker4 {
   left: 491px;
   top: 665px;
-  animation: spinReverse 12s .5s linear infinite;
+  animation: spinReverse 11s .5s linear infinite;
 }
 
 .sticker:hover {

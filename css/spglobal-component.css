@@ -97,11 +97,6 @@ nav a:focus {
 }
 
 
-@media screen and (max-width: 25em) {
-
-  .codrops-icon span {
-    display: none;
-  }
 
 }
 
