@@ -60,7 +60,13 @@ background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, F
 h2  {
   font-family: 'Raleway', serif;
   font-size: 1.3em;
+  color: #d7d2cc;
+  
+}
+
+.white {
   color: #FFF;
+  text-transform: uppercase;
 }
 
 .sticker {
