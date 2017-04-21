@@ -5,7 +5,7 @@
 
 .wrap {width:200px; margin-top: -30px; }
 
-.wrap2 {width:700px; margin: auto; margin-left: 225px; padding-top: 50px; }
+.wrap2 {width:700px; margin: auto; margin-left: 225px; padding-top: 50px; z-index: 2;}
 
 .msg {
   text-align:left;
@@ -19,7 +19,7 @@
 
 .msg:hover {
   color: #cd4436;
-  font-weight: bold;
+/*  font-weight: bold;*/
 }
 
 h2  {
@@ -35,15 +35,21 @@ h2  {
 
 .sticker1 {
   animation: spin 12s .5s linear infinite;
+  left: 5px;
+
 }
 
 .sticker2 {
   top: 275px;
+  left: 5px;
   animation: spinReverse 8.5s .5s linear infinite;
 }
 
 .sticker3 {
-  animation: spin 12s .5s linear infinite;
+  left: 600px;
+  padding-top: 20px;
+  z-index: -1;
+  animation: spin 20s .5s linear infinite;
 }
 
 .sticker:hover {
