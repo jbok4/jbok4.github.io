@@ -52,6 +52,12 @@ h2  {
   animation: spin 20s .5s linear infinite;
 }
 
+.sticker4 {
+  left: 491px;
+  top: 665px;
+  animation: spinReverse 12s .5s linear infinite;
+}
+
 .sticker:hover {
   animation-play-state: paused;
 }
