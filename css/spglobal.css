@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700|Raleway:400,300,700);
+
+/*body {padding:6em 8em; margin: auto; background:#fff;}*/
+
+.wrap {width:200px; margin-top: -30px; }
+
+.wrap2 {width:700px; margin: auto; margin-left: 225px; padding-top: 50px; }
+
+.msg {
+  text-align:left;
+  font-size:1em;
+  font-family: 'Raleway', serif;
+}
+
+.msg:nth-child(odd) {
+  color: #887f77;
+}
+
+.msg:hover {
+  color: #cd4436;
+  font-weight: bold;
+}
+
+h2  {
+  font-family: 'Raleway', serif;
+  font-size: 1.3em;
+}
+
+.sticker {
+  background: top left no-repeat; 
+  animation-play-state: running;
+  position:absolute;
+}
+
+.sticker1 {
+  animation: spin 12s .5s linear infinite;
+}
+
+.sticker2 {
+  top: 275px;
+  animation: spinReverse 8.5s .5s linear infinite;
+}
+
+.sticker3 {
+  animation: spin 12s .5s linear infinite;
+}
+
+.sticker:hover {
+  animation-play-state: paused;
+}
+
+@keyframes spin {
+  100%{ transform: rotate(1turn); }
+}
+
+@keyframes spinReverse {
+  100%{ transform: rotate(-1turn); }
+}
