@@ -42,11 +42,11 @@ background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, F
 
 .msg {
   font-size:1em;
-  font-family: 'Raleway', serif;
   text-align: justify;
   text-justify: inter-word;
   transition: color .2s ease-in-out;
   color: #777;
+  opacity: 0;
 }
 
 .msg:nth-child(odd) {
@@ -57,16 +57,30 @@ background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, F
   color: #FFF;
 }
 
+ul {
+  list-style-type: circle;
+}
+li {
+  padding-top: 10px;
+}
+
 h2  {
-  font-family: 'Raleway', serif;
   font-size: 1.3em;
   color: #d7d2cc;
-  
+  font-weight: 100;
 }
 
 .white {
   color: #FFF;
   text-transform: uppercase;
+}
+
+p  {
+  color: #d7d2cc;
+}
+
+.thankyou {
+  opacity: 0;
 }
 
 .sticker {
@@ -104,10 +118,24 @@ h2  {
   animation-play-state: paused;
 }
 
+.msg1 { animation: appear 1s 5s ease-in both; }
+.msg2 { animation: appear 1s 9s ease-in both; }
+.msg3 { animation: appear 1s 13s ease-in both; }
+.msg4 { animation: appear 1s 17s ease-in both; }
+.msg5 { animation: appear 1s 21s ease-in both; }
+.msg6 { animation: appear 1s 25s ease-in both; }
+.msg7 { animation: appear 1s 29s ease-in both; }
+.msg8 { animation: appear 1s 32s ease-in both; }
+
+
 @keyframes spin {
   100%{ transform: rotate(1turn); }
 }
 
 @keyframes spinReverse {
   100%{ transform: rotate(-1turn); }
+}
+
+@keyframes appear {
+  100%{ opacity: 1; }
 }
